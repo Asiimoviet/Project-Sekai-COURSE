@@ -1,0 +1,151 @@
+{
+    "name": "Project Sekai COURSE (Normal) Ver 3.1",
+    "description": "本表分新手段位、普通段位和真段位。普通段位难度适中，适合大部分玩家挑战。本段位可一定程度上作为个人实力象征。",
+    "rule": "规则说明\n〇 必须使用没有“判定强化”技能的卡组（建议使用全1星卡组）挑战，并要求四曲连续游玩,中途不允许重试/复活；\n① 玩家在开始时会获得一定的血量，之后的所有回复不会超过这个上限；\n② 玩家在曲目中打出的所有非Perfect判定均会减少玩家的血量，如果挑战期间血量≤0则直接记作挑战失败；\n③ 每首歌曲结束后，根据玩家的结算计算该玩家的剩余血量，如果＞0则记作存活，在当前血量上增加一定数值后开始下一曲的挑战（最后一曲除外）；\n④ 三首歌曲全部完成后如果血量＞0则挑战成功；\n⑤ 可以跳级考。",		
+    "levels": {
+        "初段": {
+            "life": 200,
+            "penalty": [2, 2, 3, 3],
+            "heal": 20,
+            "tracks": [
+                "ニア [EXPERT]",
+                "ワンスアポンアドリーム [EXPERT]",
+                "カナデトモスソラ [EXPERT]",
+                "アイノマテリアル [EXPERT]"
+            ]
+        },
+        "二段": {
+            "life": 220,
+            "penalty": [2, 2, 3, 4],
+            "heal": 20,
+            "tracks": [
+                "on the rocks [EXPERT]",
+                "Blessing [EXPERT]",
+                "からくりピエロ [EXPERT]",
+                "どりーみんチュチュ [EXPERT]"
+            ]
+        },
+        "三段": {
+            "life": 240,
+            "penalty": [2, 3, 3, 4],
+            "heal": 20,
+            "tracks": [
+                "メルティランドナイトメア [EXPERT]",
+                "群青讃歌 [EXPERT]",
+                "ウミユリ海底譚 [EXPERT]",
+                "ワーワーワールド [EXPERT]"
+            ]
+        },
+        "四段": {
+            "life": 255,
+            "penalty": [2, 3, 4, 4],
+            "heal": 18,
+            "tracks": [
+                "お気に召すまま [EXPERT]",
+                "サンドリヨン 10th Anniversary [EXPERT]",
+                "Hello,world! [EXPERT]",
+                "カトラリー [EXPERT]"
+            ]
+        },
+        "五段": {
+            "life": 270,
+            "penalty": [2, 3, 4, 5],
+            "heal": 18,
+            "tracks": [
+                "ドラマツルギー [EXPERT]",
+                "地球最後の告白を [EXPERT]",
+                "ブリキノダンス [EXPERT]",
+                "アンノウン・マザーグース [EXPERT]"
+            ]
+        },
+        "六段": {
+            "life": 285,
+            "penalty": [2, 3, 4, 5],
+            "heal": 18,
+            "tracks": [
+                "Gimme×Gimme [EXPERT]",
+                "ミルククラウン・オン・ソーネチカ [EXPERT]",
+                "ダンスロボットダンス [EXPERT]",
+                "ぼうけんのしょがきえました！ [EXPERT]"
+            ]
+        },
+        "七段": {
+            "life": 300,
+            "penalty": [2, 3, 4, 5],
+            "heal": 15,
+            "tracks": [
+                "ジャックポットサッドガール [EXPERT]",
+                "裏表ラバーズ [EXPERT]",
+                "ワールズエンド・ダンスホール [EXPERT]",
+                "チュルリラ・チュルリラ・ダッダッダ！[EXPERT]"
+            ]
+        },
+        "八段": {
+            "life": 310,
+            "penalty": [2, 3, 5, 5],
+            "heal": 15,
+            "tracks": [
+                "しっくおぶはうす！ [EXPERT]",
+                "トンデモワンダーズ [EXPERT]",
+                "ポジティブ☆ダンスタイム [EXPERT]",
+                "ネクストネスト [EXPERT]"
+            ]
+        },
+        "九段": {
+            "life": 320,
+            "penalty": [2, 3, 5, 5],
+            "heal": 15,
+            "tracks": [
+                "ヒバナ -Reloaded- [EXPERT]",
+                "君色マリンスノウ [EXPERT]",
+                "そうだった！！ [EXPERT]",
+                "トリコロージュ [MASTER]"
+            ]
+        },
+        "十段": {
+            "life": 330,
+            "penalty": [2, 3, 5, 6],
+            "heal": 12,
+            "tracks": [
+                "テオ [EXPERT]",
+                "Brand New Day [EXPERT]",
+                "ワーワーワールド [MASTER]",
+                "Hello,world! [MASTER]"
+            ]
+        },
+        "十一段": {
+            "life": 340,
+            "penalty": [2, 3, 5, 6],
+            "heal": 12,
+            "tracks": [
+                "シネマ [MASTER]",
+                "六兆年と一夜物語 [EXPERT]",
+                "ベノム [MASTER]",
+                "Don't Fight The Music [EXPERT]"
+            ]
+        },
+        "十二段": {
+            "life": 350,
+            "penalty": [2, 3, 5, 6],
+            "heal": 10,
+            "tracks": [
+                "KING [MASTER]",
+                "ステラ [MASTER]",
+                "ダーリンダンス [MASTER]",
+                "裏表ラバーズ [MASTER]"
+            ]
+        },
+        "皆传": {
+            "life": 350,
+            "penalty": [2, 3, 5, 6],
+            "heal": 10,
+            "tracks": [
+                "マシンガンポエムドール [EXPERT]",
+                "しっくおぶはうす！ [MASTER]",
+                "コスモスパイス [MASTER]",
+                "そうだった！！ [MASTER]"
+            ]
+        }
+
+    }
+}
